@@ -46,5 +46,4 @@ except KeyboardInterrupt:
   GPIO.remove_event_detect(SW1)
   GPIO.remove_event_detect(SW2)
   GPIO.cleanup()
-  display.lcd_clear()
   print("\nBye...")
